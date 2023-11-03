@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
+#include <stdlib.h>
 
 int main() {
     char premuto[7] = "p";
@@ -48,7 +49,7 @@ int main() {
           printf("Auto   🟢⚪⚪\n");
           printf("Pedoni ⚪⚪🔴\n");
         }
-    } while (getchar() == 'p');
+    } while (1);
     
     return 0;
 }
